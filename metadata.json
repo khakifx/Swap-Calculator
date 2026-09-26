@@ -1,0 +1,6 @@
+{
+  "name": "FX & CFD Swap Calculator",
+  "description": "ماشین حساب تخصصی محاسبه سواپ معاملاتی (نرخ بهره شبانه) به دلار از روی پوینت برای نمادهای فارکس، کریپتو و CFD",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

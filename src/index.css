@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --atropi-c1: #E6E2E8;
+    --atropi-c2: #55197C;
+    --atropi-c3: #B3A0BB;
+    --atropi-c4: #2D0C3C;
+    --atropi-c4-dark: #120518;
+    --atropi-c4-deep: #09020C;
+    --atropi-green: #31B07A;
+    --atropi-red: #D6494A;
+    --atropi-gold: #F1CB5B;
+  }
+
+  body {
+    background-color: #120518;
+    color: #E6E2E8;
+    font-family: 'Peyda', 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom scrollbars matching Atropi theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1B0724;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #55197C;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #774796;
+}
+
+/* Atropi pattern overlay */
+.atropi-grid-pattern {
+  background-image: 
+    linear-gradient(to right, rgba(85, 25, 124, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(85, 25, 124, 0.08) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.atropi-card-glass {
+  background: rgba(45, 12, 60, 0.45);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(179, 160, 187, 0.18);
+  box-shadow: 0 10px 30px -10px rgba(9, 2, 12, 0.7);
+}
+
+.atropi-glow {
+  box-shadow: 0 0 25px rgba(85, 25, 124, 0.35);
+}
